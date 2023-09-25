@@ -10,6 +10,7 @@ body {
   display: flex;
   width: 375px;
   height: 48px;
+  box-sizing: border-box;
   padding: 4px 24px 4px 12px;
   align-items: flex-start;
   gap: 199px;
