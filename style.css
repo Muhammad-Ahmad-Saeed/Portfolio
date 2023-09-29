@@ -1,13 +1,14 @@
 body {
   box-sizing: border-box;
   padding: 0;
+  background-color: #f5f7f8;
 }
 
 .header_headline {
   margin: 0;
   padding: 0;
-  background-image: url(header-shapes\ mobile@2x.svg);
-  background-repeat: no-repeat;
+  background-image: url(header-shapes\ mobile@2x.svg), url(header-background-mobile.png);
+  background-repeat: no-repeat, no-repeat;
   background-position: center;
   width: 375px;
   height: 718px;
@@ -249,4 +250,171 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+}
+
+.AboutMyself {
+  margin-top: 114px;
+  background-image: url(Base\ about\ my\ self.png);
+  background-repeat: no-repeat;
+  background-position: centre top;
+  display: inline-flex;
+  padding: 114px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-left: 0;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.PrimeTxt {
+  display: flex;
+  width: 327px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--neutrals-n-800, #172b4d);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.describeTxt {
+  width: 327px;
+  height: 147px;
+  color: var(--neutrals-n-600, #344563);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.socialMedia {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--primary-b-300, #7f8cff);
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+}
+
+.socialIcons img {
+  padding: 8px;
+}
+
+.resumeBtn {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  color: var(--primary-b-500, #396df2);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
+.skillList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LanguageFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skill {
+  display: flex;
+  padding: 16px 26px 16px 12px;
+  align-items: center;
+  gap: 12px;
+}
+
+.skilltext {
+  width: 237px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.skillicon {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.languagelist {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.langbox {
+  display: flex;
+  height: 66.719px;
+  padding: 9px 12px 9.716px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--neutrals-n-10, #f7f7f9);
+}
+
+.langimg {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  border: 1px solid var(--neutrals-n-0, #fcfcfc);
+}
+
+.langtxt {
+  display: flex;
+  width: 215px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--neutrals-n-700, #253858);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.seperator {
+  width: 327px;
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--neutrals-n-40, #dfe1e6);
 }
